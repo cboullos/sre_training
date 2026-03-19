@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-resource "google_compute_network" "example_vpc" {
+resource "google_compute_network" "example_vpc_cristobal" {
   name                    = "example-vpc"
   auto_create_subnetworks = true 
 }
